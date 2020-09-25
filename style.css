@@ -1,2 +1,12 @@
-#name {
-    font-size: xx-large;}
+.name {
+    font-size: xx-large;
+    color: white;
+    background-color: lightblue ;
+}
+.footer {
+    text-align: center;
+}
+.aboutme {
+    color: lightblue;
+    padding: 10px 25px 10px 25px;
+}

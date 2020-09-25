@@ -10,28 +10,47 @@
     </head>
 
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a id="name" class="navbar-brand navbar-light bg-info text-light">Delmy Melendez</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <span class="name" class="navbar-brand navbar-light text-light">Delmy Melendez</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
           
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="/contact.html">Contact</a>
                   </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Portfolio</a>
+                  <a class="nav-link" href="/portfolio.html">Portfolio</a>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="/index.html">About</a>
                   </li>
                 </li>
               </ul>
             </div>
           </nav>
+          <div class="container container pt-3">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card">
+                        <h1 class="aboutme"><b>Contact</b></h1>
+                    <div class=" card-body row">
+                            <div class="col-6">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <button type="submit" class="btn btn-secondary">Submit</button>
+          </form>
 
-          <div class="footer">
+          <div class="fixed-bottom footer">
             <p>
                 &copy; 2020 Delmy Melendez
             </p>
