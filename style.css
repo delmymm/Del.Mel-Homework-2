@@ -1,7 +1,8 @@
 .name {
     font-size: xx-large;
     color: white;
-    background-color: lightblue ;
+    background-color: lightblue;
+    font-weight: bold;
 }
 .footer {
     text-align: center;
@@ -9,4 +10,10 @@
 .aboutme {
     color: lightblue;
     padding: 10px 25px 10px 25px;
+}
+.button {
+    color: white;
+    background-color: lightblue;
+    border: none;
+    padding: 10px 10px 10px 10px;
 }
